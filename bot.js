@@ -24,6 +24,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'best admin') {
+    	message.channel.send('Si Kairu Best admin (BINAYARAN LANG AKO)');
+  	}
+});
+
 // change
 
 client.on('message', message => {
