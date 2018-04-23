@@ -21,7 +21,7 @@ client.on('message', message => {
 // change
 
 client.on('message', message => {
-  if (message.content === '!play') {
+  if (message.content === '!!play') {
     // Note that this will only work if the message was sent in a guild
     // and the author is actually in a voice channel.
     // You might want to check for all that stuff first
