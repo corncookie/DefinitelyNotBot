@@ -22,7 +22,7 @@ client.on('message', message => {
     if (message.content === '2k') {
     	message.channel.send('SAN AABOT UNG 2k PESOS MO EDI SA NGIPIN NA MAY ILLUMINATY');
   	}
-
+});
 
 // change
 
