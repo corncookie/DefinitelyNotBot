@@ -34,6 +34,21 @@ client.on('message', message => {
     	message.channel.send('Remy is fat');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'Yue') {
+    	message.channel.send('Yue is fat');
+  	}
+});
+client.on('message', message => {
+    if (message.content === '4chan') {
+    	message.channel.send('4chan is fat');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Box') {
+    	message.channel.send('Box is fat');
+  	}
+});
 
 // change
 
