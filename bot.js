@@ -29,6 +29,11 @@ client.on('message', message => {
     	message.channel.send('Si Kairu Best admin (BINAYARAN LANG AKO)');
   	}
 });
+client.on('message', message => {
+    if (message.content === 'remy') {
+    	message.channel.send('Remy is fat');
+  	}
+});
 
 // change
 
